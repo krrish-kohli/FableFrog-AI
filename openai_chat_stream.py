@@ -12,7 +12,7 @@ import time
 from elevenlabs.client import ElevenLabs
 import Text_to_Speech
 
-openai_client = OpenAI(api_key='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')
+openai_client = OpenAI(api_key='your_api_key')
 
 ELEVENLABS_API_KEY = "sk_f295af66b75bdacfdcda54f33759fcf804bed01b0abd7847"
 eleven_client = ElevenLabs(api_key=ELEVENLABS_API_KEY)
