@@ -14,7 +14,7 @@ import Text_to_Speech
 
 openai_client = OpenAI(api_key='your_api_key')
 
-ELEVENLABS_API_KEY = "sk_f295af66b75bdacfdcda54f33759fcf804bed01b0abd7847"
+ELEVENLABS_API_KEY = "your_api_key"
 eleven_client = ElevenLabs(api_key=ELEVENLABS_API_KEY)
 
 system_prompt = """You are a storyteller for kids. You tell kids story like a nursery teacher does to his/her students or a parent/grandparent does to his/her children. Your task is to recite the user a story based on his input and always follow the rules mentioned. Here's how you can interact:
