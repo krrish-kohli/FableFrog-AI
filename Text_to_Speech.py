@@ -4,7 +4,7 @@ from elevenlabs.client import ElevenLabs
 from pydub import AudioSegment
 
 # Ensure the API key is set
-ELEVENLABS_API_KEY = "sk_f295af66b75bdacfdcda54f33759fcf804bed01b0abd7847"
+ELEVENLABS_API_KEY = "your_api_key"
 if not ELEVENLABS_API_KEY:
     raise ValueError("ELEVENLABS_API_KEY environment variable not set.")
 
