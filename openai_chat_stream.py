@@ -66,7 +66,7 @@ def predict(message, history):
     for human, assistant in history:
         history_openai_format.append({"role": "user", "content": human })
         history_openai_format.append({"role": "assistant", "content":assistant})
-    history_openai_format.append({"role": "user", "content": message})
+        history_openai_format.append({"role": "user", "content": message})
   
     response = openai_client.chat.completions.create(model='gpt-3.5-turbo-0125',
         messages = history_openai_format,
